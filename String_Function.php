@@ -8,3 +8,7 @@ $sentence .= $second;
 
 echo $sentence;
 ?>
+<br>
+All Simple : <?php echo strtolower($sentence);?>
+<br>
+All Capital : <?php echo strtoupper($sentence);?>
