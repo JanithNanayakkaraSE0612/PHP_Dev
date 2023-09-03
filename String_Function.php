@@ -19,5 +19,7 @@ First letter capital in all words : <?php echo ucwords($sentence); ?>
 <br>
 Number of Characters : <?php echo strlen($sentence);?>
 <br>
-Number
-
+Search for a string or Characters : <?php echo strstr($sentence, "box");?>
+<br>
+Replace :<?php echo str_replace("five","seven",$sentence);?>
+<br>
